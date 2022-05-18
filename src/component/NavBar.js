@@ -3,9 +3,9 @@ export function NavBar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-        <img src="assets/img/doo.jpg" class="card-img-top" alt="..." height="50px" style={{ width: 50 }} />
-          <a className="navbar-brand">Navbar</a>
-         
+          <img src="assets/img/doo.jpg" className="navbar-brand" alt="..." height="50px" style={{ width: 50 }} />
+          {/* <a className="navbar-brand">Navbar</a> */}
+
           <button
             className="navbar-toggler"
             type="button"
@@ -63,20 +63,7 @@ export function NavBar() {
                 <a className="nav-link disabled">Disabled</a>
               </li>
             </ul>
-            <form className="d-flex">
-            <button type="button" class="btn btn-primary position-relative"style={{ width: 220 }}>
-  <a href="chomu" class="button">Start</a>                                                        {/*gadbad*/}
-            </button>
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button className="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+            <button type="button" class="btn btn-primary px-5">Start Check Up</button>
           </div>
         </div>
       </nav>
