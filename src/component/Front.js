@@ -14,6 +14,7 @@ export function Front() {
           </a>
         </div>
       </div>
+      
     </>
   );
 }

@@ -1,0 +1,142 @@
+.ca{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3));
+height: 70vh;
+width: 190vh;
+color: white;
+
+margin: 50px;
+
+}
+.button{
+
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.button:hover{
+     color:black;
+     font-weight: bold;
+}
+.text1{
+    font-size: 50px;
+    padding:90px ;
+}
+.text2{
+    font-size: 30px;
+    padding-bottom:30px;
+    padding-left:90px;
+}
+.img69{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+.img{
+    float:right;
+    position:absolute;
+    bottom:120px;
+    left:750px;
+    height:400px;
+} 
+.button2{
+    position:absolute;
+    left: 400px;
+    top: 610px;
+    background-color: blue;
+    border-radius: 30px;
+    
+}
+.ca2{
+    background:#FAEBD7;
+    height: 80vh;
+    width: 190vh;
+    color: white;
+    margin: 50px;
+}
+.img2{
+    float:right;
+    position:absolute;
+    top: 820px;
+    left:900px;
+    height:400px;
+} 
+.text3{
+    color: black;
+    font-size: 45px;
+    padding:80px ;
+}
+.text4{
+    color: #CD5C5C;
+    font-size: 30px;
+    padding-bottom:30px;
+    padding-left:90px;
+}
+.text5{
+    color: red;
+    font-size: 20px;
+    padding-bottom:30px;
+    padding-left:90px;
+}
+
+
+                                         /*reactive app start from here*/
+
+
+
+
+
+@media screen and (max-width:678px)
+{
+    .ca{
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3));
+        height: 100%;
+        width: 100%;
+        margin:0;
+        margin-bottom:50px;
+        margin-top: 20px;
+        background-color: skyblue;
+    }
+    
+.img{
+       display:none;
+       
+}
+.button2{
+    position: relative;
+    left: 40px;
+    top: -350px; 
+}
+ 
+}
+@media screen and (max-width:678px)
+{
+   .ca2{
+        background:#7FFFD4;
+        color:black;
+        height: 100%;
+        width: 100%;
+        margin:0;
+        padding:20px;
+    }
+/*.img2{
+       position:absolute;
+       left:30px;
+       top:1110px;
+       bottom:50px;  
+       height:530px;
+       width:340px;
+}*/
+.img2{
+    display:none;
+}
+.text3{
+    display:flex;
+    padding:30px;
+    letter-spacing: 3px;
+    
+}
+ 
+}

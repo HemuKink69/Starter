@@ -3,7 +3,9 @@ export function NavBar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
+        <img src="assets/img/doo.jpg" class="card-img-top" alt="..." height="50px" style={{ width: 50 }} />
           <a className="navbar-brand">Navbar</a>
+         
           <button
             className="navbar-toggler"
             type="button"
@@ -33,21 +35,28 @@ export function NavBar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Languages
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a className="dropdown-item">Action</a>
+                    <a className="dropdown-item">English</a>
                   </li>
                   <li>
-                    <a className="dropdown-item">Another action</a>
+                    <a className="dropdown-item">हिन्दी</a>
                   </li>
                   <li>
-                    <hr className="dropdown-divider" />
+                    <a className="dropdown-item">اردو</a>
                   </li>
                   <li>
-                    <a className="dropdown-item">Something else here</a>
+                    <a className="dropdown-item">தமிழ்</a>
                   </li>
+                  <li>
+                    <a className="dropdown-item">русский</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item">française</a>
+                  </li>
+
                 </ul>
               </li>
               <li className="nav-item">
@@ -55,6 +64,9 @@ export function NavBar() {
               </li>
             </ul>
             <form className="d-flex">
+            <button type="button" class="btn btn-primary position-relative"style={{ width: 220 }}>
+  <a href="chomu" class="button">Start</a>                                                        {/*gadbad*/}
+            </button>
               <input
                 className="form-control me-2"
                 type="search"
