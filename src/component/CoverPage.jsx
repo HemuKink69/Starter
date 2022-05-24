@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 
 export function CoverPage() {
     return (
@@ -14,9 +16,9 @@ export function CoverPage() {
                             what could be causing them. It's fast,
                             <br /> free and anonymous.
                         </h4>
-                        <a href="google.com" className="btn btn-primary text-light mt-3 px-5">
+                        <Link to="temp" className="btn btn-primary text-light mt-3 px-5">
                             Start
-                        </a>
+                        </Link>
                     </div>
                     <div className="col-6">
                         <img src="./assets/img/aman.png" alt="" className="img-fluid" />
